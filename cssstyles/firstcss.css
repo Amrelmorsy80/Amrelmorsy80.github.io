@@ -1,0 +1,52 @@
+h1 {background: #FFFF00;
+font-size: 250%;
+}
+header{background: #00ffff;
+text-align: center;
+}
+nav{font-variant: small-caps;
+font-family: sans-serif,"Times New Roman",serif,Arial;}
+body {
+    background-color: #FFFFFF;
+    font-family: Tahoma;
+    font-size: 10pt;
+}
+td,
+th {
+    border: 0px solid black;
+    border-collapse: collapse;
+}
+th {
+    color: black;
+    background-color: orange;
+}
+table,
+tr {
+    color: black;
+    background-color: white;
+},
+td {
+    color: black;
+    background-color: orange;
+},
+th {
+    padding: 1px;
+    margin: 0px;
+}
+tr:nth-child(even) {
+    background-color: lightgray
+}
+tr:nth-child(odd) {
+    background-color: darkgray
+}
+table {
+    width: 50%;
+    margin-left: 20px;
+    margin-bottom: 12px;
+    table-layout: auto;
+    display: table;
+    float: right;
+    scroll-behavior: auto;
+    height: 100px;
+    visibility: inherit;
+}
